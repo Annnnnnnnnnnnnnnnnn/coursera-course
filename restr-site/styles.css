@@ -141,7 +141,7 @@ body{
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
-  overflow: hidden;
+ 
   
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
@@ -149,11 +149,11 @@ body{
 }
 
 #menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+  background: url('file:///C:/Users/Anna/coursera-course/restr-site/images/menu-tile.png') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+  background: url('file:///C:/Users/Anna/coursera-course/restr-site/images/specials.png') no-repeat;
   background-position: center;
 }
 
@@ -175,7 +175,7 @@ body{
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/jumbotron_1200.png') no-repeat;
+    background: url('file:///C:/Users/Anna/coursera-course/restr-site/images/jumbotron_1200.png') no-repeat;
     height: 675px;
   }
 }
@@ -193,7 +193,7 @@ body{
 
     /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_992.png') no-repeat;
+    background: url('file:///C:/Users/Anna/coursera-course/restr-site/images/jumbotron_992.png') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -203,7 +203,7 @@ body{
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_768.png') no-repeat;
+    background: url('file:///C:/Users/Anna/coursera-course/restr-site/images/jumbotron_768.png') no-repeat;
     height: 432px;
   }
   /* End Home Page */
